@@ -95,10 +95,10 @@ const App = () => {
             name="Current" 
             component={CurrentScreen} 
           />
-          <Tab.Screen 
+          {/* <Tab.Screen 
             name="Daily"
             component={DailyScreen}
-          />
+          /> */}
         </Tab.Navigator>
       </NavigationContainer>
     </AppContext.Provider>

@@ -7,8 +7,10 @@ import DailyCard from '../components/DailyCard';
 const DailyScreen = () => {
     const myContext = useContext(AppContext); 
 
-    return(
 
+
+    return(
+        
         <DailyCard />
     );
 };
